@@ -2,18 +2,18 @@
 #include <stdio.h>
 #include <string.h>
 
-// Max number of candidates
+// Max number of candidates;
 #define MAX 9
 
-// Candidates have name and vote count
+// Candidates have name and vote count using structures;
 typedef struct
 {
     string name;
-    int votes;
+    int votes; //declaring variable vote;
 }
 candidate;
 
-// Array of candidates
+// Array of candidates;
 candidate candidates[MAX];
 
 // Number of candidates
